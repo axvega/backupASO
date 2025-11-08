@@ -12,9 +12,6 @@
 
 [1\. Introducción y Objetivos	2](#1.-introducción-y-objetivos)
 
-[Objetivos de la Práctica	2](#objetivos-de-la-práctica)
-
-[Directorios Respaldados	2](#directorios-respaldados)
 
 [2\. Estrategia de Backup Implementada	2](#2.-estrategia-de-backup-implementada)
 
@@ -23,12 +20,6 @@
 [Ventajas de esta Estrategia	3](#ventajas-de-esta-estrategia)
 
 [3\. Instalación y Configuración	3](#3.-instalación-y-configuración)
-
-[Paso 1: Crear Estructura de Directorios	3](#paso-1:-crear-estructura-de-directorios)
-
-[Paso 2: Instalación del Script de Backup	4](#paso-2:-instalación-del-script-de-backup)
-
-[Paso 3: Instalación del Script de RestauraciónDar permisos:	4](#paso-3:-instalación-del-script-de-restauracióndar-permisos:)
 
 [4\. Scripts del Sistema	4](#4.-scripts-del-sistema)
 
@@ -50,21 +41,9 @@
 
 [7\. Pruebas del Sistema	10](#7.-pruebas-del-sistema)
 
-[Prueba 1: Forzar Backup Completo (Domingo)	10](#prueba-1:-forzar-backup-completo-\(domingo\))
-
-[Prueba 2: Crear Archivos de Prueba y Backup Incremental	11](#prueba-2:-crear-archivos-de-prueba-y-backup-incremental)
-
-[Prueba 3: Verificar Tamaños	12](#prueba-3:-verificar-tamaños)
-
-[Prueba 4: Verificar Estructura del Backup	12](#prueba-4:-verificar-estructura-del-backup)
-
 [8\. Restauración del Sistema	13](#8.-restauración-del-sistema)
 
 [Proceso de Restauración	13](#proceso-de-restauración)
-
-[Ejemplo de Restauración de Backup Incremental	13](#ejemplo-de-restauración-de-backup-incremental)
-
-[Verificación Post-Restauración	15](#verificación-post-restauración)
 
 [Comandos Útiles	17](#comandos-útiles)
 
