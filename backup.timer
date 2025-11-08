@@ -1,0 +1,16 @@
+[Unit]
+Description=Timer para Backup Automático Diario
+Documentation=man:systemd.timer(5)
+Requires=backup.service
+
+[Timer]
+OnCalendar=*-*-* 01:00:00
+
+Persistent=true
+
+RandomizedDelaySec=15min
+
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target
