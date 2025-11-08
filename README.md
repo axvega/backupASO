@@ -2,54 +2,6 @@
 # **Sistema de Backup Incremental Automático** {#sistema-de-backup-incremental-automático}
 
 **Realizado por:** Ángel de la Vega  
- **Asignatura:** Administración de Sistemas Operativos
-
-## **Índice** {#índice}
-
-[**Sistema de Backup Incremental Automático	1**](#sistema-de-backup-incremental-automático)
-
-[Índice	1](#índice)
-
-[1\. Introducción y Objetivos	2](#1.-introducción-y-objetivos)
-
-
-[2\. Estrategia de Backup Implementada	2](#2.-estrategia-de-backup-implementada)
-
-[Tipo: Backup Incremental Semanal	2](#tipo:-backup-incremental-semanal)
-
-[Ventajas de esta Estrategia	3](#ventajas-de-esta-estrategia)
-
-[3\. Instalación y Configuración	3](#3.-instalación-y-configuración)
-
-[4\. Scripts del Sistema	4](#4.-scripts-del-sistema)
-
-[Script backup.sh \- Explicación Técnica	5](#script-backup.sh---explicación-técnica)
-
-[Script restore.sh \- Explicación Técnica	5](#script-restore.sh---explicación-técnica)
-
-[5\. Configuración de Systemd {\#systemd}	6](#5.-configuración-de-systemd-{#systemd})
-
-[Archivo: backup.service	6](#archivo:-backup.service)
-
-[Archivo: backup.timer	7](#archivo:-backup.timer)
-
-[6\. Activación y Verificación	8](#6.-activación-y-verificación)
-
-[Comandos de Activación	8](#comandos-de-activación)
-
-[Verificar Logs	9](#verificar-logs)
-
-[7\. Pruebas del Sistema	10](#7.-pruebas-del-sistema)
-
-[8\. Restauración del Sistema	13](#8.-restauración-del-sistema)
-
-[Proceso de Restauración	13](#proceso-de-restauración)
-
-[Comandos Útiles	17](#comandos-útiles)
-
-[Gestión del Servicio	17](#gestión-del-servicio)
-
-[Gestión de Backups	17](#gestión-de-backups)
 
 ## **1\. Introducción y Objetivos**  {#1.-introducción-y-objetivos}
 
