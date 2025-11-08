@@ -1,0 +1,33 @@
+[Unit]
+Description=Sistema de Backup Automático
+Documentation=man:rsync(1)
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/usr/local/bin/backup.sh
+
+# Optimización de recursos
+Nice=19
+IOSchedulingClass=idle
+CPUQuota=50%
+
+# Timeouts
+TimeoutStartSec=3h
+Restart=on-failure
+RestartSec=5m
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=backup
+
+# Seguridad
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
