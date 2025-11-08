@@ -1,4 +1,3 @@
-debian@aso:~$ cat /usr/local/bin/backup.sh 
 #!/bin/bash
 
 
